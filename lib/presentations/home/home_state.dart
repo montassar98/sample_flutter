@@ -1,6 +1,5 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:riadh_pfe/models/history.dart';
 
 @immutable
 abstract class HomeState extends Equatable {}

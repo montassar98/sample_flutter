@@ -44,6 +44,7 @@ dependencies:
   injectable: ^1.5.3
   json_annotation: ^4.5.0
   auto_route: ^4.0.1
+  fluttertoast: ^8.0.9
 
 dev_dependencies:
   flutter_test:

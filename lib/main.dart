@@ -1,12 +1,15 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:riadh_pfe/api/datasource.dart';
 import 'package:riadh_pfe/presentations/history/history_bloc.dart';
 import 'package:riadh_pfe/presentations/home/home_bloc.dart';
 import 'package:riadh_pfe/presentations/home/home_page.dart';
+import 'package:riadh_pfe/utils/http_cert.dart';
 
 void main() {
-
+  HttpOverrides.global = MyHttpOverrides();
   runApp(const MyApp());
 }
 
